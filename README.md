@@ -48,7 +48,7 @@
 }
 ```
 - Postman sample
- ![A Postman collection sample](assets/Postman-registerUser.jpg)
+ ![A Postman collection sample](assets/registerUser.jpg)
 ### POST /login
 - Allow an user to login only with their phone and secretKey.
 - On a successful OTP sended note send the response message as shown below.
@@ -64,7 +64,7 @@
 }
 ```
 - Postman sample
- ![A Postman collection sample](assets/Postman-login.jpg)
+ ![A Postman collection sample](assets/login.jpg)
 
 ## Messages APIs 
 ### POST /sendMessage
@@ -86,7 +86,7 @@
 }
 ```
 - Postman sample
- ![A Postman collection sample](assets/Postman-sendMessage.jpg)
+ ![A Postman collection sample](assets/sendMessage.jpg)
 ### GET/getMessage/:userId
 - Recipients can fetch all their messages by using the query filters and putting the sender's name into it.
 - __Response format__
@@ -105,4 +105,9 @@
 }
 ```
 - Postman sample
- ![A Postman collection sample](assets/Postman-getMessage.jpg)
+ ![A Postman collection sample](assets/getMessage.jpg)
+
+
+ - MongoDB sample
+ ![A MongoDB collection sample](assets/Slide5.jpg)
+ ![A MongoDB collection sample](assets/Slide6.jpg)
